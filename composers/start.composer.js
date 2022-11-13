@@ -12,7 +12,7 @@ composer.start(async (ctx) => {
     ).resize())
   }
   catch (e) {
-    console.error('error in Help command', e)
+    console.error(e)
   }
 })
 
