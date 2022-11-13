@@ -6,7 +6,7 @@ const lib = require('../modules/lib')
 
 composer.hears('🛋 1590р', async (ctx) => {
   try {
-    await ctx.reply(ctx.i18n.t('otlichno'), Markup.keyboard(
+    await ctx.reply(ctx.i18n.t('operator'), Markup.keyboard(
       [
         Markup.button.callback('Вернуться в главное меню'),
       ]).resize())
@@ -17,7 +17,7 @@ composer.hears('🛋 1590р', async (ctx) => {
 
 composer.hears('🛋 1990р', async (ctx) => {
   try {
-    await ctx.reply(ctx.i18n.t('otlichno'), Markup.keyboard(
+    await ctx.reply(ctx.i18n.t('operator'), Markup.keyboard(
       [
         Markup.button.callback('Вернуться в главное меню'),
       ]).resize())
